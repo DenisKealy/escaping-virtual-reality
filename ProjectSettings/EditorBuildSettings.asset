@@ -15,7 +15,13 @@ EditorBuildSettings:
     path: Assets/RUIS/Examples/KinectTwoPlayers/KinectTwoPlayers.unity
   - enabled: 0
     path: Assets/RUIS/Examples/MinimalScene/MinimalScene.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/RUIS/Examples/OculusRiftExample/OculusRiftExample.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/RUIS/Scenes/calibration.unity
+  - enabled: 0
+    path: Assets/Escaping VR/Scenes/MinimalMinimalScene.unity
+  - enabled: 0
+    path: Assets/Escaping VR/Scenes/MinimalSceneEnvironment.unity
+  - enabled: 1
+    path: Assets/Escaping VR/Scenes/TestChamber.unity

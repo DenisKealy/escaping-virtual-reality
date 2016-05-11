@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: c4f763e170b194e4699144dc10d01cae
+timeCreated: 1462895674
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Chamber1
+    100002: Chamber2
+    100004: Chamber2_MovingBlock
+    100006: Cube
+    100008: Floor_ThroneRoom
+    100010: Roof1
+    100012: Roof2
+    100014: Stairs
+    100016: //RootNode
+    100018: Throne
+    100020: Walls1
+    100022: Walls2
+    400000: Chamber1
+    400002: Chamber2
+    400004: Chamber2_MovingBlock
+    400006: Cube
+    400008: Floor_ThroneRoom
+    400010: Roof1
+    400012: Roof2
+    400014: Stairs
+    400016: //RootNode
+    400018: Throne
+    400020: Walls1
+    400022: Walls2
+    2300000: Chamber1
+    2300002: Chamber2
+    2300004: Chamber2_MovingBlock
+    2300006: Cube
+    2300008: Floor_ThroneRoom
+    2300010: Roof1
+    2300012: Roof2
+    2300014: Stairs
+    2300016: Throne
+    2300018: Walls1
+    2300020: Walls2
+    3300000: Chamber1
+    3300002: Chamber2
+    3300004: Chamber2_MovingBlock
+    3300006: Cube
+    3300008: Floor_ThroneRoom
+    3300010: Roof1
+    3300012: Roof2
+    3300014: Stairs
+    3300016: Throne
+    3300018: Walls1
+    3300020: Walls2
+    4300000: Roof2
+    4300002: Walls2
+    4300004: Chamber2_MovingBlock
+    4300006: Chamber2
+    4300008: Cube
+    4300010: Chamber1
+    4300012: Roof1
+    4300014: Stairs
+    4300016: Walls1
+    4300018: Floor_ThroneRoom
+    4300020: Throne
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
