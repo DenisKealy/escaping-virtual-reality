@@ -70,6 +70,10 @@ public class RUISCharacterLocomotion : MonoBehaviour
 
     bool shouldJump = false;
 
+	//Escaping Virtual Reality
+	private bool isSprinting = false;
+	//Esacping VR END
+
     void Awake()
     {
         characterController = GetComponent<RUISCharacterController>();
@@ -172,6 +176,19 @@ public class RUISCharacterLocomotion : MonoBehaviour
 
     void FixedUpdate()
     {
+		//Escaping Virtual Reality
+		// Changing the implementation to so the player does not need to hold down the sprint button
+		// Sprinting will continue, once it is triggered, until the player stops moving forward
+		if(!isSprinting){
+			if(Input.GetAxis("Sprint") > 0)
+				isSprinting = true;
+		}
+		else {
+			if(Input.GetAxis("Vertical") <= 0)
+				isSprinting = false;
+		}
+		//Esacping VR END
+
         //characterController.ApplyForceInCharacterDirection(translation);
 		
 		float locomotionScale = Mathf.Max(transform.lossyScale.x, transform.lossyScale.z);
@@ -212,7 +229,11 @@ public class RUISCharacterLocomotion : MonoBehaviour
 
         try
         {
-	        extraSpeed = Input.GetAxis("Sprint");
+	        //RUIS CODE COMMENTED OUT by Denis: extraSpeed = Input.GetAxis("Sprint");
+
+			//Escaping Virtual Reality
+			extraSpeed = (isSprinting) ? 1 : 0;
+			//Esacping VR END
 	        if (!airborne)
 				targetVelocity *= 1 + extraSpeed*runAdder;
         }
