@@ -7,6 +7,7 @@ TagManager:
   - WaterParticle
   - StatusText
   - Teleporter
+  - Wand
   layers:
   - Default
   - TransparentFX

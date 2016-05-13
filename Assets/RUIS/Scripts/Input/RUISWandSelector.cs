@@ -221,7 +221,7 @@ public class RUISWandSelector : MonoBehaviour {
 		rayLengthAtSelection = Vector3.Magnitude(selectionRayEnd - selectionRay.origin);
     }
 
-    private void EndSelection()
+    public void EndSelection()
     {
         selection.OnSelectionEnd();
 
