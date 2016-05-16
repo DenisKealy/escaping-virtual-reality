@@ -55,8 +55,8 @@ public class RUISCharacterAnimationController : MonoBehaviour
         {
 			// Adjust blending between Kinect and Mecanim animation according to joystick control magnitude
             float maxOfForwardOrStrafe = Mathf.Max(Mathf.Abs(forwardSpeed), Mathf.Abs(strafeSpeed));
-            animationCombiner.leftLegBlendWeight = Mathf.Clamp01(maxOfForwardOrStrafe) + 0.5f;
-            animationCombiner.rightLegBlendWeight = Mathf.Clamp01(maxOfForwardOrStrafe) + 0.5f;
+            animationCombiner.leftLegBlendWeight = Mathf.Clamp01(maxOfForwardOrStrafe + 0.2f);
+            animationCombiner.rightLegBlendWeight = Mathf.Clamp01(maxOfForwardOrStrafe + 0.2f);
         }
         else // The character is in the air
         {
