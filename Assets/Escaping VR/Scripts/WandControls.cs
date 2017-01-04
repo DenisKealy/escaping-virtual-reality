@@ -2,7 +2,7 @@
 using System.Collections;
 
 //Class to control the Skeleton Wand's attached to the cahracter. Only Right hand wand is implemented correctly.
-//Always leave twoWands false fo now.
+//Always leave twoWands false for now.
 
 public class WandControls : MonoBehaviour {
 
@@ -17,11 +17,10 @@ public class WandControls : MonoBehaviour {
 	[Tooltip("Two wands or just one (right hand).")] 
 	public bool twoWands;
 
+
 	private float lastWandOnOffAxisValue = 0;
 
 
-
-	// Use this for initialization
 	void Start () {
 
 		if(rightHandWand)
@@ -30,17 +29,14 @@ public class WandControls : MonoBehaviour {
 		if(leftHandWand)
 			leftWandSelectorComponent = leftHandWand.GetComponent<RUISWandSelector>();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 
 		// If we have two wands (not supported)
 		if(twoWands){
-			//Debug.Log("OUTSIDE Axis Value: " + Input.GetAxis("WandOnOff").ToString() + "last axis value: " + lastWandOnOffAxisValue);
 
 			if(Input.GetAxis("WandOnOff") == 1 && lastWandOnOffAxisValue != Input.GetAxis("WandOnOff")) {
 
-				//Debug.Log("INSIDE Axis Value: " + Input.GetAxis("WandOnOff").ToString() + "last axis value: " + lastWandOnOffAxisValue);
 
 				TwoWandToggleOnOff();
 				if(leftHandWand.activeSelf || rightHandWand.activeSelf)
@@ -50,7 +46,7 @@ public class WandControls : MonoBehaviour {
 
 			}
 		}
-		// The wand will be active while a key is held
+		// This is the current implementation
 		else{
 
 			if(Input.GetAxis("WandOnOff") == 1){
