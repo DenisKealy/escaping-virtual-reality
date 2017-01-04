@@ -6,6 +6,6 @@ RUIS toolkit, Oculus Rift DK2, Kinect 2.0 & a wireless gamepad controller.
 Scripts written in C#.
 
 I uploaded the most recent version of the project which was used for my demonstration.
-I split it up into seperate commits (uploaded 2nd Jan/17).
+I split it up into seperate commits (uploaded 4th Jan/17).
 
 Code was written and submitted May 2016.
