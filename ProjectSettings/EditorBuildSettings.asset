@@ -6,22 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/RUIS/Examples/BowlingAlley/BowlingAlley.unity
+    path: Assets/Escaping VR/Scenes/TestChamber.unity
   - enabled: 0
-    path: Assets/RUIS/Examples/CaveExample/CaveExample.unity
+    path: Assets/Escaping VR/Scenes/Holo Scenes/Holo Chamber.unity
   - enabled: 0
-    path: Assets/RUIS/Examples/DisplayManagerExample/DisplayManagerExample.unity
+    path: Assets/Escaping VR/Scenes/Holo Scenes/Holo Campfire.unity
   - enabled: 0
-    path: Assets/RUIS/Examples/KinectTwoPlayers/KinectTwoPlayers.unity
+    path: Assets/Escaping VR/Scenes/Holo Scenes/Holo Moon.unity
   - enabled: 0
-    path: Assets/RUIS/Examples/MinimalScene/MinimalScene.unity
-  - enabled: 0
-    path: Assets/RUIS/Examples/OculusRiftExample/OculusRiftExample.unity
-  - enabled: 0
-    path: Assets/RUIS/Scenes/calibration.unity
-  - enabled: 0
-    path: Assets/Escaping VR/Scenes/MinimalMinimalScene.unity
-  - enabled: 0
-    path: Assets/Escaping VR/Scenes/MinimalSceneEnvironment.unity
+    path: Assets/Escaping VR/Scenes/Levels/Level1.unity
   - enabled: 1
+    path: Assets/Escaping VR/Scenes/Levels/Level2.unity
+  - enabled: 0
     path: Assets/Escaping VR/Scenes/TestChamber.unity
