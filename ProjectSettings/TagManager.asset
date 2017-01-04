@@ -8,6 +8,9 @@ TagManager:
   - StatusText
   - Teleporter
   - Wand
+  - HoloChamberListener
+  - Star
+  - Input Manager
   layers:
   - Default
   - TransparentFX
